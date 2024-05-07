@@ -20,11 +20,9 @@ public class WordComparator {
     }
 
     private static boolean areWordsSimilar(String word1, String word2) {
-        // Convert both words to lowercase for case-insensitive comparison
         word1 = word1.toLowerCase();
         word2 = word2.toLowerCase();
 
-        // Compare the words
         return word1.equals(word2);
     }
 }
